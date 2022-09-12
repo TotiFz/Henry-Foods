@@ -1,0 +1,56 @@
+.cardLk{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 25vw;
+    height: 50vh;
+    margin: 1rem 0;
+    border-radius: 5px; 
+    box-shadow: -9px 13px 13px 3px rgba(41, 41, 41, 0.94);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 250ms ease;
+}
+
+.cardLk:hover {
+    transform: scale(1.02);
+    border: none;
+    color: #a47c1d;
+}
+
+.card-img {
+	width: 25vw;
+    height: 25vh;
+}
+
+.card-data{
+	width: 25vw;
+    height: 50vh;
+    background-color: rgb(192, 140, 0);
+}
+
+.card-data a{
+	color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.card-title{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 30px;
+    margin-left: 4px;
+    text-align: left ;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+
+}
+.card-diets{
+    font-size: 15px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    margin-left: 4px;
+    text-align: left ;
+    text-decoration: none;
+}

@@ -1,0 +1,8 @@
+export const GET_ALL_RECIPES = 'GET_ALL_RECIPES';
+export const GET_ALL_DIETS = 'GET_ALL_DIETS';
+export const GET_RECIPE_ID = 'GET_RECIPE_ID';
+export const GET_RECIPE_NAME = 'GET_RECIPE_NAME';
+export const SWITCH_LOADING = 'SWITCH_LOADING';
+export const CREATE_RECIPE = 'CREATE_RECIPE';
+
+

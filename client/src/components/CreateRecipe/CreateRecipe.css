@@ -1,0 +1,134 @@
+.containerForm{
+    display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 100px;
+	background-color: #000000;
+	min-height: 100vh;
+	user-select: none;
+  }
+.form-title {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+	color: #ffffff;
+}
+.divForm{
+    background-color: rgb(255, 0, 0);
+    border-radius: 20px;
+    border-style: solid;
+    /* margin-left: 20%;
+    margin-right: 20%; */
+	width: 25%;
+	height: 25%;
+}
+  
+.divForm h4{
+	font-size: 1.5em;
+    padding: 0 0.5rem;
+	height: 6vh;
+	width: 20vw;
+	border-radius: 10px;
+	margin-bottom: 1rem;
+}
+
+.divForm input{
+	padding: 0.4rem 0.4rem;
+	height: 8vh;
+	width: 20vw;
+	border-radius: 5px;
+	margin-bottom: 0.5rem;
+}
+  
+.divForm{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+.btnS{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+	font-weight: 500;
+	background-color: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	font-size: 0.8em;
+	width: 8vw;
+	height: 4vh;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.btnS:hover {
+	background-color: rgb(22, 22, 22);
+    color: rgb(255, 0, 0);
+}
+.btn-reset {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+	font-weight: 500;
+	background-color: rgb(70, 69, 69);
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	font-size: 0.8em;
+	width: 8vw;
+	height: 4vh;
+	margin-right: 10px;
+}
+
+.btn-reset:hover {
+	background-color: rgb(255, 0, 0);
+    color: rgb(185, 185, 185);
+}
+p.danger {
+    color: red;
+    font-size: 25px;
+}
+    
+input.danger {
+    border: 2px solid red;
+}
+  
+.delete{
+	font-size: 15px;
+    background-color: rgb(255, 0, 0);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    border-radius: 4px;
+    height: 25px;
+    width: 25px;
+  }
+.tempSelect{
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+	font-weight: 500;
+	background-color: #000000;
+	border-radius: 5px;
+	cursor: pointer;
+	color: white;
+	font-size: 0.8em;
+	width: 8vw;
+	height: 4vh;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.temp{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 15px;
+}
+  
+.btnT{
+    margin: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+	
+}
+.inputStyle{
+    border-radius: 10px;
+}
